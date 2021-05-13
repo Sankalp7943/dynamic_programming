@@ -27,6 +27,6 @@ if sum_arr%2:
     print("False")
 else:
     target = sum_arr//2
-    dp = [[-1]*(target+1)]*(n+1)
+    dp = [[-1 for i in range(target+1)] for j in range(n+1)] 
     ans = equal_sum_partition_dp(arr, target, n)
     print(ans)
