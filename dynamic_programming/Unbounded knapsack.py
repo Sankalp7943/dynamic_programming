@@ -29,6 +29,7 @@ capacity = 100
 weight = [10, 20, 30, 10, 20 , 25]
 value = [10, 30, 40, 100, 26, 15]
 n = len(weight)
-dp = [[-1]*(capacity+1)]*(n+1)
+dp = [[-1 for i in range(capacity+1)] for j in range(n+1)] 
+
 
 

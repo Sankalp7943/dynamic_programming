@@ -39,5 +39,5 @@ def subset_sum_dp(arr, target, n):
 arr = [2,3,7,8,10]
 target = 20
 n = len(arr)
-dp = [[-1]*(target+1)]*(n+1)
+dp = [[-1 for i in range(target+1)] for j in range(n+1)] 
 print(subset_sum_dp(arr, target, n))
