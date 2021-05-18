@@ -58,7 +58,7 @@ for n in range(rows):
             else:
                 dp[n][m] = max(dp[n-1][m],dp[n][m-1])
 
-# print(dp[n][m])
+print(dp[n][m])
 # for i in dp:
 #     print(i)
 
